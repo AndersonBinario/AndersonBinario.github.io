@@ -32,11 +32,16 @@
           <button data-lang-btn="pt-br">PT</button>
         </div>
       </div>
-      <button class="nav-burger" id="nav-burger" aria-label="Menu" aria-expanded="false">
+      <button class="nav-burger" id="nav-burger"
+              aria-label="Menu"
+              aria-expanded="false"
+              aria-controls="nav-links">
         <span></span><span></span><span></span>
       </button>
     </div>
   </nav>
+
+  <main>
 
   <section class="hero">
     <div class="container">
@@ -64,6 +69,7 @@
           <img src="/assets/img/infectors3/icon.png"
                alt="Infectors 3volution icon"
                class="game-card-icon"
+               width="128" height="128" loading="lazy"
                onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
           <div class="game-card-icon-placeholder" style="display:none"></div>
           <h3>Infectors 3volution</h3>
@@ -79,6 +85,7 @@
           <img src="/assets/img/squaremaze/icon.png"
                alt="Square Maze icon"
                class="game-card-icon"
+               width="128" height="128" loading="lazy"
                onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
           <div class="game-card-icon-placeholder" style="display:none"></div>
           <h3>Square Maze</h3>
@@ -105,16 +112,18 @@
 
   <section class="section" id="about">
     <div class="container">
+      <h2 class="sr-only" data-i18n="section.about">About</h2>
       <div class="about-inner">
         <div>
           <img src="/assets/img/avatar.jpg"
                alt="Anderson Binário"
                class="about-avatar"
+               width="200" height="200" loading="lazy"
                onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
           <div class="about-avatar-placeholder" style="display:none"></div>
         </div>
         <div class="about-text">
-          <h2 data-i18n="about.name">Anderson Binário</h2>
+          <h3 data-i18n="about.name">Anderson Binário</h3>
           <p data-i18n="about.p1">I'm an indie mobile game developer based in Brazil, publishing games under the Nuclear² label.</p>
           <p data-i18n="about.p2">I build games with Kotlin and LibGDX — focusing on mechanics that are simple to learn but difficult to master.</p>
           <p data-i18n="about.p3">Currently working on expanding my catalog to iOS and growing each title through organic discovery.</p>
@@ -157,6 +166,8 @@
       </div>
     </div>
   </section>
+
+  </main>
 
   <footer class="footer">
     <div class="container footer-inner">

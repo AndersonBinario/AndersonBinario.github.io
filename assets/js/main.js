@@ -6,11 +6,13 @@
 
   if (burger && navLinks) {
     burger.addEventListener('click', function () {
-      var isOpen = navLinks.classList.toggle('open');
+      navLinks.classList.toggle('open');
+      var isOpen = navLinks.classList.contains('open');
       burger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
     });
 
-    navLinks.querySelectorAll('a').forEach(function (link) {
+    // nav links close on click
+    Array.prototype.forEach.call(navLinks.querySelectorAll('a'), function (link) {
       link.addEventListener('click', function () {
         navLinks.classList.remove('open');
         burger.setAttribute('aria-expanded', 'false');
@@ -25,13 +27,10 @@
     });
   }
 
-  document.querySelectorAll('a[href^="#"]').forEach(function (link) {
+  Array.prototype.forEach.call(document.querySelectorAll('a[href^="#"]'), function (link) {
     link.addEventListener('click', function (e) {
       var target = document.querySelector(link.getAttribute('href'));
-      if (target) {
-        e.preventDefault();
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
+      if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
     });
   });
 })();
