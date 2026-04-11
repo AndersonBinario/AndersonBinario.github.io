@@ -57,6 +57,7 @@ body.game-squaremaze {
 
 .game-hero-ctas { display: flex; gap: var(--sp-4); flex-wrap: wrap; }
 
+/* Applied alongside .btn — extends base button styles */
 .btn-game {
   background: var(--game-accent);
   color: #000;
@@ -116,8 +117,7 @@ body.game-squaremaze {
 }
 .feature-block:last-child { margin-bottom: 0; }
 
-.feature-block.reverse { direction: rtl; }
-.feature-block.reverse > * { direction: ltr; }
+.feature-block.reverse .feature-image { order: -1; }
 
 .feature-text::before {
   content: '';
@@ -198,6 +198,5 @@ body.game-squaremaze {
     grid-template-columns: 1fr;
     gap: var(--sp-8);
   }
-  .feature-block.reverse { direction: ltr; }
   .screenshots-grid { grid-template-columns: repeat(2, 1fr); }
 }
