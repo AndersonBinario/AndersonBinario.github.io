@@ -69,5 +69,7 @@
   "game.squaremaze.f3.desc":  "Empurre caixas em buracos, pressione botões para abrir portas e navegue por zonas de puzzle que exigem planejamento para escapar.",
   "game.squaremaze.f4.title": "Progressão por Estrelas",
   "game.squaremaze.f4.desc":  "Colete estrelas para desbloquear novos personagens. Acompanhe seu melhor tempo e menor contagem de ações — desafie-se a completar cada nível com perfeição.",
-  "game.squaremaze.cta":      "Pronto para resolver?"
+  "game.squaremaze.cta":      "Pronto para resolver?",
+
+  "game.screenshots": "Capturas de Tela"
 }

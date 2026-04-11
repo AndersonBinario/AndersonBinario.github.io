@@ -69,5 +69,7 @@
   "game.squaremaze.f3.desc":  "Push boxes into holes, press buttons to open doors, and navigate puzzle zones that require planning ahead to escape.",
   "game.squaremaze.f4.title": "Star Progression",
   "game.squaremaze.f4.desc":  "Collect stars to unlock new characters. Track your best time and lowest action count — challenge yourself to perfect every level.",
-  "game.squaremaze.cta":      "Ready to solve?"
+  "game.squaremaze.cta":      "Ready to solve?",
+
+  "game.screenshots": "Screenshots"
 }
