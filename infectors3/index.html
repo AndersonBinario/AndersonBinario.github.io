@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infectors 3volution — Cell Strategy Game | Android &amp; iOS</title>
+  <meta name="description" content="Command a microscopic army in real-time battles. Infect, evolve with DNA points and master special skills to dominate the enemy. Free on Android and iOS.">
+
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://www.binario.dev.br/infectors3/">
+  <meta property="og:title"       content="Infectors 3volution — Cell Strategy Game">
+  <meta property="og:description" content="Command a microscopic army in real-time battles. Infect, evolve and dominate.">
+  <meta property="og:image"       content="https://www.binario.dev.br/assets/img/infectors3/og.png">
+  <link rel="canonical" href="https://www.binario.dev.br/infectors3/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/game.css">
+</head>
+<body class="game-infectors3">
+
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="/" class="nav-back">← <span data-i18n="nav.back">Games</span></a>
+      <div class="nav-links" id="nav-links">
+        <a href="/#games"   data-i18n="nav.games">Games</a>
+        <a href="/#about"   data-i18n="nav.about">About</a>
+        <a href="/#contact" data-i18n="nav.contact">Contact</a>
+        <div class="lang-toggle">
+          <button data-lang-btn="en">EN</button>
+          <button data-lang-btn="pt-br">PT</button>
+        </div>
+      </div>
+      <button class="nav-burger" id="nav-burger" aria-label="Menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <section class="game-hero">
+      <div class="container">
+        <img src="/assets/img/infectors3/icon.png"
+             alt="Infectors 3volution"
+             class="game-hero-icon"
+             width="100" height="100"
+             onerror="this.style.display='none'">
+        <h1 class="game-hero-title" data-i18n="game.infectors3.name">Infectors 3volution</h1>
+        <p class="game-hero-tagline"  data-i18n="game.infectors3.hero.tagline">Cell strategy: infect, evolve and dominate.</p>
+        <p class="game-hero-subtitle" data-i18n="game.infectors3.hero.subtitle">Command a microscopic army in real-time battles of total domination. Be the last team standing.</p>
+        <div class="game-hero-ctas">
+          <a href="https://play.google.com/store/apps/developer?id=Nuclear%C2%B2"
+             target="_blank" rel="noopener"
+             class="btn btn-game"
+             data-i18n="game.infectors3.download.android">Download on Google Play</a>
+          <a href="https://play.google.com/store/apps/developer?id=Nuclear%C2%B2"
+             target="_blank" rel="noopener"
+             class="btn btn-game-outline"
+             data-i18n="game.infectors3.download.ios">Download on App Store</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="screenshots">
+      <div class="container">
+        <h2 class="section-title">Screenshots</h2>
+        <div class="screenshots-grid">
+          <div class="screenshot-item">
+            <img src="/assets/img/infectors3/screenshot-1.png" alt="" loading="lazy">
+            <p class="screenshot-caption" data-i18n="game.infectors3.s1.caption">Real-time cell combat</p>
+          </div>
+          <div class="screenshot-item">
+            <img src="/assets/img/infectors3/screenshot-2.png" alt="" loading="lazy">
+            <p class="screenshot-caption" data-i18n="game.infectors3.s2.caption">DNA evolution system</p>
+          </div>
+          <div class="screenshot-item">
+            <img src="/assets/img/infectors3/screenshot-3.png" alt="" loading="lazy">
+            <p class="screenshot-caption" data-i18n="game.infectors3.s3.caption">Special skills</p>
+          </div>
+          <div class="screenshot-item">
+            <img src="/assets/img/infectors3/screenshot-4.png" alt="" loading="lazy">
+            <p class="screenshot-caption" data-i18n="game.infectors3.s4.caption">Hundreds of stages</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+
+        <div class="feature-block">
+          <div class="feature-text">
+            <div class="feature-icon">⚔️</div>
+            <h2 class="feature-title" data-i18n="game.infectors3.f1.title">Real-Time Strategy</h2>
+            <p class="feature-desc"  data-i18n="game.infectors3.f1.desc">Select cells, pick your targets, and strike at the right moment. Dominate neutral cells to grow and neutralize enemies before they reach you.</p>
+          </div>
+          <div class="feature-image">
+            <img src="/assets/img/infectors3/feature-1.png" alt="" loading="lazy"
+                 onerror="this.parentElement.innerHTML='<div class=\'feature-image-placeholder\'>Art coming soon</div>'">
+          </div>
+        </div>
+
+        <div class="feature-block reverse">
+          <div class="feature-text">
+            <div class="feature-icon">🧬</div>
+            <h2 class="feature-title" data-i18n="game.infectors3.f2.title">Evolve Your Army</h2>
+            <p class="feature-desc"  data-i18n="game.infectors3.f2.desc">Distribute DNA points across four attributes: Attack, Defense, Regeneration, and Speed. Each path shapes your playstyle and unlocks devastating combinations.</p>
+          </div>
+          <div class="feature-image">
+            <img src="/assets/img/infectors3/feature-2.png" alt="" loading="lazy"
+                 onerror="this.parentElement.innerHTML='<div class=\'feature-image-placeholder\'>Art coming soon</div>'">
+          </div>
+        </div>
+
+        <div class="feature-block">
+          <div class="feature-text">
+            <div class="feature-icon">⚡</div>
+            <h2 class="feature-title" data-i18n="game.infectors3.f3.title">Special Skills</h2>
+            <p class="feature-desc"  data-i18n="game.infectors3.f3.desc">Unlock and master unique powers in the Lab: Explosion, Sacrifice, Growth, Battery, Hibernation, Fast Area, Slow Area. Use them at the right moment to turn impossible matches around.</p>
+          </div>
+          <div class="feature-image">
+            <img src="/assets/img/infectors3/feature-3.png" alt="" loading="lazy"
+                 onerror="this.parentElement.innerHTML='<div class=\'feature-image-placeholder\'>Art coming soon</div>'">
+          </div>
+        </div>
+
+        <div class="feature-block reverse">
+          <div class="feature-text">
+            <div class="feature-icon">🔬</div>
+            <h2 class="feature-title" data-i18n="game.infectors3.f4.title">Hundreds of Stages</h2>
+            <p class="feature-desc"  data-i18n="game.infectors3.f4.desc">Maps with unique layouts — circular, star, diamond, pinwheel, border and more — guarantee variety and new challenges every stage.</p>
+          </div>
+          <div class="feature-image">
+            <img src="/assets/img/infectors3/feature-4.png" alt="" loading="lazy"
+                 onerror="this.parentElement.innerHTML='<div class=\'feature-image-placeholder\'>Art coming soon</div>'">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="game-cta">
+      <div class="container">
+        <h2 class="game-cta-title"><span data-i18n="game.infectors3.cta">Ready to infect?</span></h2>
+        <div class="game-cta-buttons">
+          <a href="https://play.google.com/store/apps/developer?id=Nuclear%C2%B2"
+             target="_blank" rel="noopener"
+             class="btn btn-game"
+             data-i18n="game.infectors3.download.android">Download on Google Play</a>
+          <a href="https://play.google.com/store/apps/developer?id=Nuclear%C2%B2"
+             target="_blank" rel="noopener"
+             class="btn btn-game-outline"
+             data-i18n="game.infectors3.download.ios">Download on App Store</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-privacy">
+        <a href="/infectors3/privacy" data-i18n="footer.privacy.infectors3">Infectors 3volution — Privacy</a>
+        <a href="/squaremaze/privacy" data-i18n="footer.privacy.squaremaze">Square Maze — Privacy</a>
+        <a href="/maze/privacy"       data-i18n="footer.privacy.maze">Maze — Privacy</a>
+      </div>
+      <div class="lang-toggle">
+        <button data-lang-btn="en">EN</button>
+        <button data-lang-btn="pt-br">PT</button>
+      </div>
+      <p class="footer-copy" data-i18n="footer.copyright">© 2026 Anderson Binário. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="/assets/js/i18n.js"></script>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
