@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Square Maze — Isometric Puzzle Game | Android &amp; iOS</title>
+  <meta name="description" content="Navigate procedurally generated isometric mazes with a penguin. Collect stars, push boxes and solve puzzles across infinite levels. Free on Android and iOS.">
+
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://www.binario.dev.br/squaremaze/">
+  <meta property="og:title"       content="Square Maze — Isometric Puzzle Game">
+  <meta property="og:description" content="Navigate procedurally generated mazes with a penguin. Collect stars and solve puzzles.">
+  <meta property="og:image"       content="https://www.binario.dev.br/assets/img/squaremaze/og.png">
+  <link rel="canonical" href="https://www.binario.dev.br/squaremaze/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/game.css">
+</head>
+<body class="game-squaremaze">
+
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="/" class="nav-back">← <span data-i18n="nav.back">Games</span></a>
+      <div class="nav-links" id="nav-links">
+        <a href="/#games"   data-i18n="nav.games">Games</a>
+        <a href="/#about"   data-i18n="nav.about">About</a>
+        <a href="/#contact" data-i18n="nav.contact">Contact</a>
+        <div class="lang-toggle">
+          <button data-lang-btn="en">EN</button>
+          <button data-lang-btn="pt-br">PT</button>
+        </div>
+      </div>
+      <button class="nav-burger" id="nav-burger" aria-label="Menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <section class="game-hero">
+      <div class="container">
+        <img src="/assets/img/squaremaze/icon.png"
+             alt="Square Maze"
+             class="game-hero-icon"
+             width="100" height="100"
+             onerror="this.style.display='none'">
+        <h1 class="game-hero-title" data-i18n="game.squaremaze.name">Square Maze</h1>
+        <p class="game-hero-tagline"  data-i18n="game.squaremaze.hero.tagline">Isometric maze puzzle with a penguin.</p>
+        <p class="game-hero-subtitle" data-i18n="game.squaremaze.hero.subtitle">Navigate procedurally generated mazes, collect stars and solve puzzles. Every level is a new challenge.</p>
+        <div class="game-hero-ctas">
+          <a href="https://play.google.com/store/apps/developer?id=Nuclear%C2%B2"
+             target="_blank" rel="noopener noreferrer"
+             class="btn btn-game"
+             data-i18n="game.squaremaze.download.android">Download on Google Play</a>
+          <a href="#"
+             aria-disabled="true"
+             title="Coming soon to iOS"
+             class="btn btn-game-outline"
+             data-i18n="game.squaremaze.download.ios">Download on App Store</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="screenshots">
+      <div class="container">
+        <h2 class="section-title" data-i18n="game.screenshots">Screenshots</h2>
+        <div class="screenshots-grid">
+          <div class="screenshot-item">
+            <img src="/assets/img/squaremaze/screenshot-1.png" alt="" loading="lazy" width="270" height="480">
+            <p class="screenshot-caption" data-i18n="game.squaremaze.s1.caption">Isometric maze navigation</p>
+          </div>
+          <div class="screenshot-item">
+            <img src="/assets/img/squaremaze/screenshot-2.png" alt="" loading="lazy" width="270" height="480">
+            <p class="screenshot-caption" data-i18n="game.squaremaze.s2.caption">Procedural level generation</p>
+          </div>
+          <div class="screenshot-item">
+            <img src="/assets/img/squaremaze/screenshot-3.png" alt="" loading="lazy" width="270" height="480">
+            <p class="screenshot-caption" data-i18n="game.squaremaze.s3.caption">Box-pushing puzzles</p>
+          </div>
+          <div class="screenshot-item">
+            <img src="/assets/img/squaremaze/screenshot-4.png" alt="" loading="lazy" width="270" height="480">
+            <p class="screenshot-caption" data-i18n="game.squaremaze.s4.caption">Star collection and progression</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+
+        <div class="feature-block">
+          <div class="feature-text">
+            <div class="feature-icon">🐧</div>
+            <h2 class="feature-title" data-i18n="game.squaremaze.f1.title">Isometric Puzzle</h2>
+            <p class="feature-desc"  data-i18n="game.squaremaze.f1.desc">Guide your penguin through an isometric grid, sliding across icy surfaces, avoiding traps and collecting stars to progress.</p>
+          </div>
+          <div class="feature-image">
+            <img src="/assets/img/squaremaze/feature-1.png" alt="" loading="lazy" width="270" height="480"
+                 onerror="this.parentElement.innerHTML='<div class=\'feature-image-placeholder\'>Art coming soon</div>'">
+          </div>
+        </div>
+
+        <div class="feature-block reverse">
+          <div class="feature-text">
+            <div class="feature-icon">🗺️</div>
+            <h2 class="feature-title" data-i18n="game.squaremaze.f2.title">Procedural Generation</h2>
+            <p class="feature-desc"  data-i18n="game.squaremaze.f2.desc">Every maze is generated from a unique seed — no two levels are alike. The grid grows as you advance, from 17×17 to 31×31, increasing complexity naturally.</p>
+          </div>
+          <div class="feature-image">
+            <img src="/assets/img/squaremaze/feature-2.png" alt="" loading="lazy" width="270" height="480"
+                 onerror="this.parentElement.innerHTML='<div class=\'feature-image-placeholder\'>Art coming soon</div>'">
+          </div>
+        </div>
+
+        <div class="feature-block">
+          <div class="feature-text">
+            <div class="feature-icon">📦</div>
+            <h2 class="feature-title" data-i18n="game.squaremaze.f3.title">Push &amp; Solve</h2>
+            <p class="feature-desc"  data-i18n="game.squaremaze.f3.desc">Push boxes into holes, press buttons to open doors, and navigate puzzle zones that require planning ahead to escape.</p>
+          </div>
+          <div class="feature-image">
+            <img src="/assets/img/squaremaze/feature-3.png" alt="" loading="lazy" width="270" height="480"
+                 onerror="this.parentElement.innerHTML='<div class=\'feature-image-placeholder\'>Art coming soon</div>'">
+          </div>
+        </div>
+
+        <div class="feature-block reverse">
+          <div class="feature-text">
+            <div class="feature-icon">⭐</div>
+            <h2 class="feature-title" data-i18n="game.squaremaze.f4.title">Star Progression</h2>
+            <p class="feature-desc"  data-i18n="game.squaremaze.f4.desc">Collect stars to unlock new characters. Track your best time and lowest action count — challenge yourself to perfect every level.</p>
+          </div>
+          <div class="feature-image">
+            <img src="/assets/img/squaremaze/feature-4.png" alt="" loading="lazy" width="270" height="480"
+                 onerror="this.parentElement.innerHTML='<div class=\'feature-image-placeholder\'>Art coming soon</div>'">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="game-cta">
+      <div class="container">
+        <h2 class="game-cta-title" data-i18n="game.squaremaze.cta">Ready to solve?</h2>
+        <div class="game-cta-buttons">
+          <a href="https://play.google.com/store/apps/developer?id=Nuclear%C2%B2"
+             target="_blank" rel="noopener noreferrer"
+             class="btn btn-game"
+             data-i18n="game.squaremaze.download.android">Download on Google Play</a>
+          <a href="#"
+             aria-disabled="true"
+             title="Coming soon to iOS"
+             class="btn btn-game-outline"
+             data-i18n="game.squaremaze.download.ios">Download on App Store</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-privacy">
+        <a href="/infectors3/privacy" data-i18n="footer.privacy.infectors3">Infectors 3volution — Privacy</a>
+        <a href="/squaremaze/privacy" data-i18n="footer.privacy.squaremaze">Square Maze — Privacy</a>
+        <a href="/maze/privacy"       data-i18n="footer.privacy.maze">Maze — Privacy</a>
+      </div>
+      <div class="lang-toggle">
+        <button data-lang-btn="en">EN</button>
+        <button data-lang-btn="pt-br">PT</button>
+      </div>
+      <p class="footer-copy" data-i18n="footer.copyright">© 2026 Anderson Binário. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="/assets/js/i18n.js"></script>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
