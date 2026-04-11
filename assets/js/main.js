@@ -29,7 +29,9 @@
 
   Array.prototype.forEach.call(document.querySelectorAll('a[href^="#"]'), function (link) {
     link.addEventListener('click', function (e) {
-      var target = document.querySelector(link.getAttribute('href'));
+      var selector = link.getAttribute('href');
+      if (selector === '#') return;
+      var target = document.querySelector(selector);
       if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
     });
   });
