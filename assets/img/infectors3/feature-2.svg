@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 960" width="540" height="960" role="img" aria-label="DNA Evolution">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#0a0a14"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#22c55e" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#22c55e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="540" height="960" fill="url(#bg)"/>
+  <rect width="540" height="960" fill="url(#glow)"/>
+  <g stroke="#22c55e" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M 210 200 Q 330 260, 210 320 Q 90 380, 210 440"/>
+    <path d="M 330 200 Q 210 260, 330 320 Q 450 380, 330 440"/>
+  </g>
+  <g stroke="#22c55e" stroke-width="4" opacity="0.7">
+    <line x1="218" y1="230" x2="322" y2="230"/>
+    <line x1="248" y1="260" x2="292" y2="260"/>
+    <line x1="238" y1="290" x2="302" y2="290"/>
+    <line x1="218" y1="320" x2="322" y2="320"/>
+    <line x1="248" y1="350" x2="292" y2="350"/>
+    <line x1="238" y1="380" x2="302" y2="380"/>
+    <line x1="218" y1="410" x2="322" y2="410"/>
+  </g>
+  <rect x="250" y="510" width="40" height="3" fill="#22c55e" rx="2"/>
+  <text x="270" y="580" text-anchor="middle" font-size="40" font-weight="700" fill="#e2e8f0" font-family="Inter, system-ui, -apple-system, sans-serif">DNA Evolution</text>
+  <text x="270" y="625" text-anchor="middle" font-size="20" fill="#94a3b8" font-family="Inter, system-ui, -apple-system, sans-serif">Shape your playstyle</text>
+</svg>

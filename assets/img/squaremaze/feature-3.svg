@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 960" width="540" height="960" role="img" aria-label="Push and Solve">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#0a0a14"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="540" height="960" fill="url(#bg)"/>
+  <rect width="540" height="960" fill="url(#glow)"/>
+  <g stroke="#38bdf8" stroke-width="4" fill="none" stroke-dasharray="8 8" opacity="0.5">
+    <rect x="170" y="230" width="90" height="90"/>
+  </g>
+  <g>
+    <rect x="290" y="260" width="120" height="120" fill="#0284c7" stroke="#38bdf8" stroke-width="4"/>
+    <line x1="290" y1="260" x2="410" y2="380" stroke="#38bdf8" stroke-width="2" opacity="0.6"/>
+    <line x1="410" y1="260" x2="290" y2="380" stroke="#38bdf8" stroke-width="2" opacity="0.6"/>
+  </g>
+  <g stroke="#38bdf8" stroke-width="5" fill="#38bdf8">
+    <line x1="255" y1="320" x2="285" y2="320"/>
+    <polygon points="275,310 295,320 275,330"/>
+  </g>
+  <g fill="#38bdf8" opacity="0.4">
+    <circle cx="180" cy="440" r="8"/>
+    <circle cx="360" cy="440" r="8"/>
+    <rect x="220" y="432" width="100" height="16" rx="3"/>
+  </g>
+  <rect x="250" y="510" width="40" height="3" fill="#38bdf8" rx="2"/>
+  <text x="270" y="580" text-anchor="middle" font-size="40" font-weight="700" fill="#e2e8f0" font-family="Inter, system-ui, -apple-system, sans-serif">Push &amp; Solve</text>
+  <text x="270" y="625" text-anchor="middle" font-size="20" fill="#94a3b8" font-family="Inter, system-ui, -apple-system, sans-serif">Plan every move</text>
+</svg>
