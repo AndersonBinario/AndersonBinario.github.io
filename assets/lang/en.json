@@ -18,6 +18,7 @@
 
   "game.infectors3.tagline": "Cell strategy: infect, evolve and dominate.",
   "game.squaremaze.tagline": "Isometric maze puzzle with a penguin.",
+  "game.sliderbomb.tagline": "Sliding block puzzle with bombs.",
   "game.maze.tagline":       "A new maze adventure. Coming soon.",
 
   "section.about": "About",
@@ -71,6 +72,24 @@
   "game.squaremaze.f4.title": "Star Progression",
   "game.squaremaze.f4.desc":  "Collect stars to unlock new characters. Track your best time and lowest action count — challenge yourself to perfect every level.",
   "game.squaremaze.cta":      "Ready to solve?",
+
+  "game.sliderbomb.name": "SliderBomb",
+  "game.sliderbomb.hero.tagline": "Slide, blast, solve.",
+  "game.sliderbomb.hero.subtitle": "The block doesn't stop where you want. It slides until it hits something. A pure logic puzzle: no timer, no lives, no luck.",
+  "game.sliderbomb.download.android": "Download on Google Play",
+  "game.sliderbomb.s1.caption": "Every move slides until it hits",
+  "game.sliderbomb.s2.caption": "Bombs open the path — or close it",
+  "game.sliderbomb.s3.caption": "Ice, conveyors, teleports and doors",
+  "game.sliderbomb.s4.caption": "2,950 levels in 18 groups",
+  "game.sliderbomb.f1.title": "One Rule",
+  "game.sliderbomb.f1.desc": "Push a block and it travels until it meets an obstacle. That's the whole rule — walls become footholds and pits become shortcuts.",
+  "game.sliderbomb.f2.title": "Bombs With Consequences",
+  "game.sliderbomb.f2.desc": "Cross-blast bombs open the path you needed, or destroy the one you were counting on. Placement is half the problem.",
+  "game.sliderbomb.f3.title": "New Mechanics, One at a Time",
+  "game.sliderbomb.f3.desc": "Ice that won't let you stop, conveyors, springs, teleports, doors and buttons. Each one debuts with a guided demo before the levels build on it.",
+  "game.sliderbomb.f4.title": "No Ads, No Timers, No Lives",
+  "game.sliderbomb.f4.desc": "Unlimited undo, fully offline, no account. Fail as often as you like — failing here is how you think.",
+  "game.sliderbomb.cta": "Ready to slide?",
 
   "game.screenshots": "Screenshots"
 }

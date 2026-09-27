@@ -13,6 +13,11 @@ body.game-squaremaze {
   --game-accent-dim: rgba(56, 189, 248, 0.1);
 }
 
+body.game-sliderbomb {
+  --game-accent:     #ffb03a;
+  --game-accent-dim: rgba(255, 176, 58, 0.1);
+}
+
 /* --- Game Hero --- */
 .game-hero {
   min-height: 70vh;

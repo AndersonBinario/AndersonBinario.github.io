@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SliderBomb — Sliding Block Puzzle | Android</title>
+  <meta name="description" content="Slide blocks, place bombs and clear the way. A pure logic puzzle with 2,950 levels, no ads, no timers and no lives. Free on Android.">
+
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://www.binario.dev.br/sliderbomb/">
+  <meta property="og:title"       content="SliderBomb — Sliding Block Puzzle">
+  <meta property="og:description" content="Slide blocks, place bombs and clear the way. No ads, no timers, no lives.">
+  <meta property="og:image"       content="https://www.binario.dev.br/assets/img/sliderbomb/og.png">
+  <link rel="canonical" href="https://www.binario.dev.br/sliderbomb/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/game.css">
+</head>
+<body class="game-sliderbomb">
+
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="/" class="nav-back">← <span data-i18n="nav.back">Games</span></a>
+      <div class="nav-links" id="nav-links">
+        <a href="/#games"   data-i18n="nav.games">Games</a>
+        <a href="/#about"   data-i18n="nav.about">About</a>
+        <a href="/#contact" data-i18n="nav.contact">Contact</a>
+        <div class="lang-toggle">
+          <button data-lang-btn="en">EN</button>
+          <button data-lang-btn="pt-br">PT</button>
+        </div>
+      </div>
+      <button class="nav-burger" id="nav-burger" aria-label="Menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <section class="game-hero">
+      <div class="container">
+        <img src="/assets/img/sliderbomb/icon.png"
+             alt="SliderBomb"
+             class="game-hero-icon"
+             width="100" height="100"
+             onerror="this.style.display='none'">
+        <h1 class="game-hero-title" data-i18n="game.sliderbomb.name">SliderBomb</h1>
+        <p class="game-hero-tagline"  data-i18n="game.sliderbomb.hero.tagline">Slide, blast, solve.</p>
+        <p class="game-hero-subtitle" data-i18n="game.sliderbomb.hero.subtitle">The block doesn't stop where you want. It slides until it hits something. A pure logic puzzle: no timer, no lives, no luck.</p>
+        <div class="game-hero-ctas">
+          <a href="https://play.google.com/store/apps/details?id=com.nuclear2.sliderbomb"
+             target="_blank" rel="noopener noreferrer"
+             class="btn btn-game"
+             data-i18n="game.sliderbomb.download.android">Download on Google Play</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="screenshots">
+      <div class="container">
+        <h2 class="section-title" data-i18n="game.screenshots">Screenshots</h2>
+        <div class="screenshots-grid">
+          <div class="screenshot-item">
+            <img src="/assets/img/sliderbomb/screenshot-1.png" alt="" loading="lazy" width="270" height="480">
+            <p class="screenshot-caption" data-i18n="game.sliderbomb.s1.caption">Every move slides until it hits</p>
+          </div>
+          <div class="screenshot-item">
+            <img src="/assets/img/sliderbomb/screenshot-2.png" alt="" loading="lazy" width="270" height="480">
+            <p class="screenshot-caption" data-i18n="game.sliderbomb.s2.caption">Bombs open the path — or close it</p>
+          </div>
+          <div class="screenshot-item">
+            <img src="/assets/img/sliderbomb/screenshot-3.png" alt="" loading="lazy" width="270" height="480">
+            <p class="screenshot-caption" data-i18n="game.sliderbomb.s3.caption">Ice, conveyors, teleports and doors</p>
+          </div>
+          <div class="screenshot-item">
+            <img src="/assets/img/sliderbomb/screenshot-4.png" alt="" loading="lazy" width="270" height="480">
+            <p class="screenshot-caption" data-i18n="game.sliderbomb.s4.caption">2,950 levels in 18 groups</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+
+        <div class="feature-block">
+          <div class="feature-text">
+            <div class="feature-icon">🧊</div>
+            <h2 class="feature-title" data-i18n="game.sliderbomb.f1.title">One Rule</h2>
+            <p class="feature-desc"  data-i18n="game.sliderbomb.f1.desc">Push a block and it travels until it meets an obstacle. That's the whole rule — walls become footholds and pits become shortcuts.</p>
+          </div>
+          <div class="feature-image">
+            <img src="/assets/img/sliderbomb/screenshot-1.png" alt="" loading="lazy" width="270" height="480"
+                 onerror="this.parentElement.innerHTML='<div class=\'feature-image-placeholder\'>Art coming soon</div>'">
+          </div>
+        </div>
+
+        <div class="feature-block reverse">
+          <div class="feature-text">
+            <div class="feature-icon">💣</div>
+            <h2 class="feature-title" data-i18n="game.sliderbomb.f2.title">Bombs With Consequences</h2>
+            <p class="feature-desc"  data-i18n="game.sliderbomb.f2.desc">Cross-blast bombs open the path you needed, or destroy the one you were counting on. Placement is half the problem.</p>
+          </div>
+          <div class="feature-image">
+            <img src="/assets/img/sliderbomb/screenshot-2.png" alt="" loading="lazy" width="270" height="480"
+                 onerror="this.parentElement.innerHTML='<div class=\'feature-image-placeholder\'>Art coming soon</div>'">
+          </div>
+        </div>
+
+        <div class="feature-block">
+          <div class="feature-text">
+            <div class="feature-icon">🧩</div>
+            <h2 class="feature-title" data-i18n="game.sliderbomb.f3.title">New Mechanics, One at a Time</h2>
+            <p class="feature-desc"  data-i18n="game.sliderbomb.f3.desc">Ice that won't let you stop, conveyors, springs, teleports, doors and buttons. Each one debuts with a guided demo before the levels build on it.</p>
+          </div>
+          <div class="feature-image">
+            <img src="/assets/img/sliderbomb/screenshot-3.png" alt="" loading="lazy" width="270" height="480"
+                 onerror="this.parentElement.innerHTML='<div class=\'feature-image-placeholder\'>Art coming soon</div>'">
+          </div>
+        </div>
+
+        <div class="feature-block reverse">
+          <div class="feature-text">
+            <div class="feature-icon">↩️</div>
+            <h2 class="feature-title" data-i18n="game.sliderbomb.f4.title">No Ads, No Timers, No Lives</h2>
+            <p class="feature-desc"  data-i18n="game.sliderbomb.f4.desc">Unlimited undo, fully offline, no account. Fail as often as you like — failing here is how you think.</p>
+          </div>
+          <div class="feature-image">
+            <img src="/assets/img/sliderbomb/screenshot-4.png" alt="" loading="lazy" width="270" height="480"
+                 onerror="this.parentElement.innerHTML='<div class=\'feature-image-placeholder\'>Art coming soon</div>'">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="game-cta">
+      <div class="container">
+        <h2 class="game-cta-title" data-i18n="game.sliderbomb.cta">Ready to slide?</h2>
+        <div class="game-cta-buttons">
+          <a href="https://play.google.com/store/apps/details?id=com.nuclear2.sliderbomb"
+             target="_blank" rel="noopener noreferrer"
+             class="btn btn-game"
+             data-i18n="game.sliderbomb.download.android">Download on Google Play</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-privacy">
+        <a href="/infectors3/privacy" data-i18n="footer.privacy.infectors3">Infectors 3volution — Privacy</a>
+        <a href="/squaremaze/privacy" data-i18n="footer.privacy.squaremaze">Square Maze — Privacy</a>
+        <a href="/maze/privacy"       data-i18n="footer.privacy.maze">Maze — Privacy</a>
+        <a href="/sliderbomb/privacy" data-i18n="footer.privacy.sliderbomb">SliderBomb — Privacy</a>
+      </div>
+      <div class="lang-toggle">
+        <button data-lang-btn="en">EN</button>
+        <button data-lang-btn="pt-br">PT</button>
+      </div>
+      <p class="footer-copy" data-i18n="footer.copyright">© 2026 Anderson Binário. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="/assets/js/i18n.js"></script>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
