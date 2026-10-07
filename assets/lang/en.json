@@ -80,15 +80,15 @@
   "game.sliderbomb.s1.caption": "Every move slides until it hits",
   "game.sliderbomb.s2.caption": "Bombs open the path — or close it",
   "game.sliderbomb.s3.caption": "Ice, conveyors, teleports and doors",
-  "game.sliderbomb.s4.caption": "2,950 levels in 18 groups",
+  "game.sliderbomb.s4.caption": "11,540 levels, from tutorial to challenge",
   "game.sliderbomb.f1.title": "One Rule",
   "game.sliderbomb.f1.desc": "Push a block and it travels until it meets an obstacle. That's the whole rule — walls become footholds and pits become shortcuts.",
   "game.sliderbomb.f2.title": "Bombs With Consequences",
   "game.sliderbomb.f2.desc": "Cross-blast bombs open the path you needed, or destroy the one you were counting on. Placement is half the problem.",
   "game.sliderbomb.f3.title": "New Mechanics, One at a Time",
   "game.sliderbomb.f3.desc": "Ice that won't let you stop, conveyors, springs, teleports, doors and buttons. Each one debuts with a guided demo before the levels build on it.",
-  "game.sliderbomb.f4.title": "No Ads, No Timers, No Lives",
-  "game.sliderbomb.f4.desc": "Unlimited undo, fully offline, no account. Fail as often as you like — failing here is how you think.",
+  "game.sliderbomb.f4.title": "No Timers, No Lives",
+  "game.sliderbomb.f4.desc": "Unlimited undo, plays offline, no account. Fail as often as you like — failing here is how you think.",
   "game.sliderbomb.cta": "Ready to slide?",
 
   "game.screenshots": "Screenshots"

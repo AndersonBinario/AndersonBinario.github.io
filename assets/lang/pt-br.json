@@ -80,15 +80,15 @@
   "game.sliderbomb.s1.caption": "Todo lance desliza até bater",
   "game.sliderbomb.s2.caption": "Bombas abrem o caminho — ou fecham",
   "game.sliderbomb.s3.caption": "Gelo, esteiras, teleportes e portas",
-  "game.sliderbomb.s4.caption": "2.950 fases em 18 grupos",
+  "game.sliderbomb.s4.caption": "11.540 fases, do tutorial ao desafio",
   "game.sliderbomb.f1.title": "Uma Regra Só",
   "game.sliderbomb.f1.desc": "Empurre um bloco e ele corre até encontrar um obstáculo. Só isso — paredes viram apoio e buracos viram atalho.",
   "game.sliderbomb.f2.title": "Bombas com Consequência",
   "game.sliderbomb.f2.desc": "Bombas com alcance em cruz abrem o caminho que faltava, ou destroem o que você precisava. Posicionar é metade do problema.",
   "game.sliderbomb.f3.title": "Uma Mecânica de Cada Vez",
   "game.sliderbomb.f3.desc": "Gelo que não deixa parar, esteiras, molas, teleportes, portas e botões. Cada um estreia com uma demonstração guiada antes de as fases o explorarem.",
-  "game.sliderbomb.f4.title": "Sem Anúncios, Tempo ou Vidas",
-  "game.sliderbomb.f4.desc": "Desfazer ilimitado, tudo offline, sem conta. Erre quantas vezes quiser — errar aqui é como se pensa.",
+  "game.sliderbomb.f4.title": "Sem Tempo, Sem Vidas",
+  "game.sliderbomb.f4.desc": "Desfazer ilimitado, joga offline, sem conta. Erre quantas vezes quiser — errar aqui é como se pensa.",
   "game.sliderbomb.cta": "Pronto para deslizar?",
 
   "game.screenshots": "Capturas de Tela"
